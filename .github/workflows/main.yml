@@ -2,7 +2,7 @@ name: 刷课
  
 on: 
   push:
-    branches: [ main ]
+分支: [ main ]
   #是否开始每天8点定时刷课，若要开启请把下面两行注释去掉
   #schedule:
   #  - cron: "0 8 * * *" 
@@ -25,4 +25,4 @@ jobs:
           
       
       - name: Run main.py
-        run: python main.py -u 账号 -p 密码 -l 256869211 #课程id，默认为心理课的
+        run: python main.py -u 510322199405110693 -p a18483157677 -l 145796789 #课程id，默认为心理课的
